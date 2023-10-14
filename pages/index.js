@@ -1,5 +1,11 @@
 import Link from "next/link";
 
+window.onload = function () {
+  Particles.init({
+    selector: ".background"
+  });
+};
+
 export default function Home() {
   return(
     <>
