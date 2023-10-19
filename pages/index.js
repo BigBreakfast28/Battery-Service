@@ -5,41 +5,26 @@ import Link from "next/link";
 export default function Home() {
   return(
     <>
-      <h1>Battery Service 260</h1>
+    <div class="nav-container" className="items-center">
+      <h1 className="text-center">
+        Battery Service 260 <br/>
+        This is your one stop shop. Contact me for all mobile services.
+      </h1>
         <main>
-          <h1>
-            This is your one stop shop. Contact me for all mobile services. 
-          </h1>
-
-            <div>
-              <Link href="/">
-                Battery Replacement
-              </Link>
-
-              <LinK href="/">
-                Oil Change
-              </LinK>
-
-              <Link href="/">
-                Transmission
-              </Link>
-            
-              <Link href="/">
-                Engine Services
-              </Link>
-
-              <Link href="/">
-                Radiator
-              </Link>
-
-              <Link href="/">
-                Inspection
-              </Link>
-
-              
-
+            <div class="">
+              <div class="nav-tab ">
+                  <Link href="battery_replacement">
+                    Battery Replacement
+                  </Link>
+              </div>
+              <div class="nav-tab">
+                  <Link href="oil_change">
+                    Oil Change
+                  </Link>
+              </div>
             </div>
-        </main>
+          </main>
+        </div>
     </>
   )
 }
