@@ -53,7 +53,7 @@ h3.span {
   letter-spacing: 0.7em;
   font-family: "ROBOTO", monospace;
   font-weight: 300;
-  color:#faebd7;
+  color:#fadcd7fd;
   z-index: 4;
 }
 
@@ -90,7 +90,7 @@ a {
   justify-content: center;
   align-items:center;
   flex:1;
-  color: #03dac6;
+  color: #ba03da;
   letter-spacing:0.1rem;
   transition: all 0.5s ease;
   font-size: 2vw;
@@ -98,7 +98,7 @@ a {
 
 .nav-tab:hover {
   color: #1e1f26;
-  background: #03dac6;
+  background: #a71c51;
   transition: all 0.5s ease;
 }
 
@@ -164,7 +164,7 @@ a {
 
 
 .loader span {
-  color: #faebd7;
+  color: #b311d4;
   text-shadow: 0 0 0 #faebd7;
 }
 
