@@ -1,5 +1,6 @@
 export default function Home () {
   return (
+    <>
     <section class="nav">
       <h1>Battery Service 260</h1>
         <h3 className="span loader">
@@ -14,6 +15,13 @@ export default function Home () {
             <a class="nav-tab" href="general_inquiry">Inspection</a>
           </div>
     </section>
+
+    <div>
+      <p>
+        Please contact me for any services your car may need. I've been working in the auto industry for over 30 years. Best service guaranteed!
+      </p>
+    </div>
+    </>
   )
 }
 
