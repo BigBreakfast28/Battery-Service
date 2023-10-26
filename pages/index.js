@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home () {
   return (
     <>
@@ -10,9 +12,9 @@ export default function Home () {
         </h3>
 
           <div class="">
-            <a class="nav-tab" href="battery_replacement">Battery-Replacement</a>
-            <a class="nav-tab" href="oil_change"> Oil Change</a>
-            <a class="nav-tab" href="general_inquiry">Inspection</a>
+            <Link class="nav-tab" href="battery_replacement">Battery-Replacement</Link>
+            <Link class="nav-tab" href="oil_change"> Oil Change</Link>
+            <Link class="nav-tab" href="general_inquiry">Inspection</Link>
           </div>
     </section>
 
@@ -23,7 +25,7 @@ export default function Home () {
     </div>
     </>
   )
-}
+};
 
 
 
