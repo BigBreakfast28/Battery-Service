@@ -23,6 +23,7 @@ export default function Home () {
         Please contact me for any services your car may need. I've been working in the auto industry for over 30 years. Best service guaranteed!
       </p>
     </div>
+      <img src="" />
     </>
   )
 };

@@ -1,5 +1,3 @@
-
-
 export default function battery_replacement () {
     return (
                 <body>
@@ -21,9 +19,11 @@ export default function battery_replacement () {
                         <label>
                             Vehicle location: <input id="Vehicle location" name="Vehicle location" />
                         </label>
+
+                        <hr />
+
+                        <fieldset for=""></fieldset>
                     </form>
                 </body>
     )
-};
-
-
+}
